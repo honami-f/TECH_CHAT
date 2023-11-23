@@ -1,0 +1,66 @@
+/* ヘッダー */
+header {
+  height: 65px;
+  width: 100wp;
+  background-color: #1C3667;
+  padding: 0 20px;
+}
+
+.header_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: 100;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+}
+
+.question_btn {
+  width: 80px;
+  height: 32px;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+/* メイン画面 */
+.question-index {
+  background-color: #F2F2F3;
+  height: (100vh - 65px);
+  width: 100vw;
+}
+.posts {
+  display: flex;
+  height: 100px;
+  width: 700px;
+  margin-bottom: 25px;
+}
+.comment-count {
+  background-color: #1C3667;
+  height: 100px;
+  width: 70px;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+.count {
+  font-size: 26px;
+  color: #FFFFFF;
+}
+.comment {
+  font-size: 11px;
+  color: #FFFFFF;
+}
+.post {
+  background-color: #FFFFFF;
+
+}
+.post-title {
+  width: 500px;
+}

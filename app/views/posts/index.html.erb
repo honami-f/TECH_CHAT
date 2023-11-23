@@ -1,0 +1,21 @@
+<div class="question-index">
+<% @posts.each do |post| %>
+  <div class="posts">
+    <div class="comment-count">
+      <div class="count">0</div>
+      <div class="comment">comments</div>
+    </div>
+    <div class="post">
+      <div class="post-title">
+        <%= post.title %>
+      </div>
+      <div class="post-name">
+        <%= post.name %>
+      </div>
+      <div class="post-content">
+        <%= post.text %>
+      </div>
+    </div>
+  </div>
+<% end %>
+</div>
