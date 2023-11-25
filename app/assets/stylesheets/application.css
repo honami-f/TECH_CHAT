@@ -33,16 +33,16 @@ h1 {
   background-color: #F2F2F3;
   height: calc(100vh - 65px);
   width: 100vw;
+  padding-top: 90px;
 }
 .posts {
   display: flex;
   height: 100px;
   width: 700px;
-  margin: 0 auto;
+  margin: 0 auto 25px;
 }
 .comment-count {
   background-color: #1C3667;
-  height: 100px;
   width: 70px;
   border-radius: 5px 0 0 5px;
   text-align: center;
@@ -60,7 +60,10 @@ h1 {
 .post {
   background-color: #FFFFFF;
   width: 630px;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 15px;
 }
 .post-title {
   width: 500px;
+  font-size: 14px;
 }
