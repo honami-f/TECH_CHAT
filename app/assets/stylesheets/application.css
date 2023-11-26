@@ -78,3 +78,45 @@ h1 {
 .post-content {
   font-size: 12px;
 }
+
+/* 質問投稿画面 */
+.post-question {
+  width: 700px;
+  margin: 80px auto 0;
+}
+.post-header {
+  background-color: #1C3667;
+  border-radius: 5px 5px 0 0;
+  height: 45px;
+}
+.post-main {
+  background-color: #FFFFFF;
+  border-radius: 0 0 5px 5px;
+  padding: 40px 0;
+}
+form {
+  margin: 0 auto;
+  width: 520px;
+}
+.question-title input,
+.question-name input {
+  width: 520px;
+  height: 30px;
+}
+.question-text textarea{
+  width: 520px;
+  height: 120px;
+}
+.quesrion-btn input {
+  width: 520px;
+  height: 36px;
+  background-color: #1C3667;
+  color: #FFFFFF;
+  border: none;
+}
+.question-text {
+  margin: 15px 0;
+}
+.quesrion-btn {
+  margin-top: 20px;
+}
