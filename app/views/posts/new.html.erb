@@ -1,6 +1,21 @@
-<%= form_with(model: @post, local: true) do |form| %>
-  <%= form.text_field :title, placeholder: "タイトル" %><br>
-  <%= form.text_area :text, placeholder: "質問内容" %><br>
-  <%= form.text_field :name, placeholder: "投稿者名" %><br>
-  <%= form.submit "POST" %>
-<% end %>
+<div class="question-index">
+  <div class="post-question">
+    <div class="post-header"></div>
+    <div class="post-main">
+    <%= form_with(model: @post, local: true) do |form| %>
+      <div class="question-title">
+      <%= form.text_field :title, placeholder: "タイトル" %><br>
+      </div>
+      <div class="question-text">
+      <%= form.text_area :text, placeholder: "質問内容" %><br>
+      </div>
+      <div class="question-name">
+      <%= form.text_field :name, placeholder: "投稿者名" %><br>
+      </div>
+      <div class="quesrion-btn">
+      <%= form.submit "POST" %>
+      </div>
+    <% end %>
+    </div>
+  </div>
+</div>
