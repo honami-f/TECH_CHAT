@@ -94,29 +94,37 @@ h1 {
   border-radius: 0 0 5px 5px;
   padding: 40px 0;
 }
-form {
+.input-items {
+  width: 520px;
   margin: 0 auto;
-  width: 520px;
 }
-.question-title input,
-.question-name input {
-  width: 520px;
+.input-items input,
+.input-items textarea {
+  width: 100%;
+  height: 100%;
+}
+.question-title{
+  width: 100%;
   height: 30px;
 }
-.question-text textarea{
-  width: 520px;
+.question-text {
+  width: 100%;
   height: 120px;
+  margin: 15px 0;
+}
+.input-items__name {
+  width: 100%;
+  height: 30px;
+  margin-top: 15px;
+}
+.quesrion-btn {
+  width: 100%;
+  height: 36px;
+  margin-top: 20px;
 }
 .quesrion-btn input {
-  width: 520px;
-  height: 36px;
   background-color: #1C3667;
   color: #FFFFFF;
   border: none;
-}
-.question-text {
-  margin: 15px 0;
-}
-.quesrion-btn {
-  margin-top: 20px;
+  font-size: 18px;
 }
