@@ -1,0 +1,35 @@
+.question-answers {
+  background-color: #F2F2F3;
+  padding: 60px 0;
+}
+.question-answer {
+  width: 60vw;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 70px;
+}
+.question-show {
+  margin-bottom: 40px;
+}
+.answer-form {
+  border: 1px solid;
+  padding: 40px;
+}
+.answer-text textarea {
+  height: 100px;
+  width: 640px;
+}
+.answer-name input {
+  height: 30px;
+  width: 640px;
+  margin: 15px 0;
+}
+.answer-btn input {
+  width: 640px;
+  background-color: #1C3667;
+  color: #FFFFFF;
+  border: none;
+  font-size: 18px;
+}
+.answer-text {
+}

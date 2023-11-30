@@ -1,14 +1,29 @@
-タイトル：<%= @post.title %><br>
-質問内容：<%= @post.text %><br>
-投稿者名：<%= @post.name %><br>
+<div class="question-answers">
+  <div class="question-answer">
+    <div class="question-show">
+    タイトル：<%= @post.title %><br>
+    質問内容：<%= @post.text %><br>
+    投稿者名：<%= @post.name %><br>
+    </div>
+    <div class="answer-form">
+    <%= form_with(model: [@post, @answer], local: true) do |form| %>
+      <div class="answer-content">
+        <div class="answer-text">
+        <%= form.text_area :text, placeholder: "回答する" %>
+        </div>
+        <div class="answer-name">
+        <%= form.text_field :name, placeholder: "ユーザー名" %>
+        </div>
+        <div class="answer-btn">
+        <%= form.submit "POST" %>
+        </div>
+      </div>
+    <% end %>
+    </div>
 
-<%= form_with(model: [@post, @answer], local: true) do |form| %>
-  <%= form.text_area :text, placeholder: "回答する" %><br>
-  <%= form.text_field :name, placeholder: "ユーザー名" %><br>
-  <%= form.submit "POST" %>
-<% end %>
-
-<% @post.answers.each do |answer| %>
-  回答：<%= answer.text %><br>
-  投稿者名：<%= answer.text %><br><br>
-<% end %>
+    <% @post.answers.each do |answer| %>
+      回答：<%= answer.text %><br>
+      投稿者名：<%= answer.text %><br><br>
+    <% end %>
+  </div>
+</div>
