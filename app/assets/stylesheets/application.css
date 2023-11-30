@@ -1,132 +1,19 @@
-/* ヘッダー */
-header {
-  height: 65px;
-  width: 100wp;
-  background-color: #1C3667;
-  padding: 0 20px;
-}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
 
-.header_contents {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-h1 {
-  font-size: 23px;
-  font-weight: 100;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 3px;
-}
-.app-name {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-.question_btn {
-  width: 80px;
-  height: 32px;
-  font-size: 16px;
-  background-color: #FFFFFF;
-  border-radius: 5px;
-}
-
-/* メイン画面 */
-.question-index {
-  background-color: #F2F2F3;
-  height: calc(100vh - 65px);
-  width: 100vw;
-  padding-top: 90px;
-}
-.posts {
-  display: flex;
-  height: 100px;
-  width: 700px;
-  margin: 0 auto 25px;
-}
-.comment-count {
-  background-color: #1C3667;
-  width: 70px;
-  border-radius: 5px 0 0 5px;
-  text-align: center;
-  padding-top: 20px;
-  
-}
-.count {
-  font-size: 26px;
-  color: #FFFFFF;
-}
-.comment {
-  font-size: 11px;
-  color: #FFFFFF;
-}
-.post {
-  background-color: #FFFFFF;
-  width: 630px;
-  border-radius: 0 5px 5px 0;
-  padding: 10px 15px;
-}
-.title_name {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-.post-title {
-  width: 500px;
-  font-size: 14px;
-}
-.post-name {
-  font-size: 12px;
-}
-.post-content {
-  font-size: 12px;
-}
-
-/* 質問投稿画面 */
-.post-question {
-  width: 700px;
-  margin: 80px auto 0;
-}
-.post-header {
-  background-color: #1C3667;
-  border-radius: 5px 5px 0 0;
-  height: 45px;
-}
-.post-main {
-  background-color: #FFFFFF;
-  border-radius: 0 0 5px 5px;
-  padding: 40px 0;
-}
-.input-items {
-  width: 520px;
-  margin: 0 auto;
-}
-.input-items input,
-.input-items textarea {
-  width: 100%;
-  height: 100%;
-}
-.question-title{
-  width: 100%;
-  height: 30px;
-}
-.question-text {
-  width: 100%;
-  height: 120px;
-  margin: 15px 0;
-}
-.input-items__name {
-  width: 100%;
-  height: 30px;
-  margin-top: 15px;
-}
-.quesrion-btn {
-  width: 100%;
-  height: 36px;
-  margin-top: 20px;
-}
-.quesrion-btn input {
-  background-color: #1C3667;
-  color: #FFFFFF;
-  border: none;
-  font-size: 18px;
+ * {
+  box-sizing: border-box;
 }
