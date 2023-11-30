@@ -20,12 +20,13 @@ div {
 /* ヘッダー */
 header {
   height: 65px;
-  width: 100wp;
+  width: 100vw;
   background-color: #1C3667;
   padding: 0 20px;
 }
 
 .header_contents {
+  height: 65px;
   display: flex;
   justify-content: space-between;
   align-items: center;
