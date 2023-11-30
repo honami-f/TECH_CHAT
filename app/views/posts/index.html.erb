@@ -2,7 +2,7 @@
 <% @posts.each do |post| %>
   <div class="posts">
     <div class="comment-count">
-      <div class="count">0</div>
+      <div class="count"><%= @answers.where(post_id: post.id).count %></div>
       <div class="comment">comments</div>
     </div>
     <div class="post">
