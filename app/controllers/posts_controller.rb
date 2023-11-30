@@ -12,6 +12,11 @@ class PostsController < ApplicationController
     redirect_to '/'
   end
 
+  def show
+    @post = Post.find(params[:id])
+    @answer = Answer.new
+  end
+
   private
   def post_params
     params.require(:post).permit(:title, :text, :name)
